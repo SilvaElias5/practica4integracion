@@ -38,6 +38,7 @@ public void setNombre_pila(String nombre_pila) {
 	Nombre_pila = nombre_pila;
 } 
 
+
 public String getApellido_paterno() {
 	return Apellido_paterno;
 }
