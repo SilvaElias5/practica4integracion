@@ -77,5 +77,13 @@ public String getEstatus() {
 public void setEstatus(String estatus) {
 	Estatus = estatus;
 }
+@Override
+public String toString() {
+	return "Modelo_cls [id=" + id + ", Nombre_pila=" + Nombre_pila + ", Apellido_paterno=" + Apellido_paterno
+			+ ", Apellido_materno=" + Apellido_materno + ", Servicio=" + Servicio + ", Fecha_nacimiento="
+			+ Fecha_nacimiento + ", Plan=" + Plan + ", Estatus=" + Estatus + "]";
+}
+
+
   
 }
