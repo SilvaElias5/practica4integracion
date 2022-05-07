@@ -13,6 +13,7 @@ public class Conexion {
 	private static DataSource getDatasource() {
 		if (dataSource == null) {
 			dataSource = new BasicDataSource();
+			
 			dataSource.setDriverClassName("com.mysql.cj.Driver");
 			dataSource.setUsername("root");
 			dataSource.setPassword("1914");
