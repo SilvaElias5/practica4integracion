@@ -38,7 +38,7 @@ public void setNombre_pila(String nombre_pila) {
 	Nombre_pila = nombre_pila;
 } 
 
-
+//se crea aqui un repositorio
 public String getApellido_paterno() {
 	return Apellido_paterno;
 }
